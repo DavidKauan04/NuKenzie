@@ -1,0 +1,88 @@
+.container_saldo {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    width: 24.688rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    box-shadow: 1px 1px 1px 1px rgb(224, 226, 227);
+
+}
+
+.container_saldo p {
+    margin: 0;
+    color: rgba(52, 58, 64, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.estilizacao_valor_saldo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estilizacao_valor_saldo p {
+    color: rgba(52, 58, 64, 1);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.estilizacao_valor_saldo span {
+    color: #fd377e;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.dividas {
+    font-size: 14px;
+    color: red;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 426px) {
+    .container_saldo {
+        margin-top: 1px;
+        width: 237px;
+        height: 26%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1rem;
+        box-shadow: 1px 1px 1px 1px rgb(224, 226, 227);
+    
+    }
+    
+    .container_saldo p {
+        margin: 0;
+        color: rgba(52, 58, 64, 1);
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .estilizacao_valor_saldo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .estilizacao_valor_saldo p {
+        color: rgba(52, 58, 64, 1);
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .estilizacao_valor_saldo span {
+        color: #fd377e;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .dividas {
+        font-size: 14px;
+        color: red;
+        font-weight: 700;
+    }
+}
